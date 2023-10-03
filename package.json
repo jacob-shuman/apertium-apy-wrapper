@@ -1,0 +1,70 @@
+{
+  "name": "apertium-apy-wrapper",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@8.8.0",
+  "description": "An unofficial api wrapper around the official Apertium-APy (https://wiki.apertium.org/wiki/Apertium-apy)",
+  "author": "Jacob Shuman <jacob.shuman7@gmail.com>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/jacob-shuman",
+  "homepage": "https://github.com/jacob-shuman/apertium-apy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacob-shuman/apertium-apy.git"
+  },
+  "bugs": "https://github.com/jacob-shuman/apertium-apy/issues",
+  "keywords": [
+    "apertium",
+    "apy",
+    "translation",
+    "translate",
+    "api"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "prepublishOnly": "nr build",
+    "release": "bumpp && npm publish",
+    "start": "esno src/index.ts",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@antfu/ni": "^0.21.8",
+    "@antfu/utils": "^0.7.6",
+    "@types/node": "^20.7.0",
+    "bumpp": "^9.2.0",
+    "esno": "^0.17.0",
+    "pnpm": "^8.8.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2",
+    "unbuild": "^2.0.0",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.5"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
