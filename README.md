@@ -1,6 +1,6 @@
 # apertium-apy-wrapper
 
-A lightweight wrapper for the [Apertium APY](https://wiki.apertium.org/wiki/Apertium-apy) built in typescript.
+An unofficial lightweight wrapper for the [Apertium APY](https://wiki.apertium.org/wiki/Apertium-apy) built in typescript.
 
 > Apertium is an open-source platform for developing rule-based machine translation systems. It's especially suitable for related language pairs and offers tools to build translation systems for various language combinations. Additionally, it provides linguistic data for a range of language pairs, enabling users to create new translation systems or improve existing ones.
 

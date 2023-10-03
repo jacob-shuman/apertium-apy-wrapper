@@ -2,16 +2,16 @@
   "name": "apertium-apy-wrapper",
   "type": "module",
   "version": "1.0.0",
-  "description": "An unofficial api wrapper around the official Apertium-APy (https://wiki.apertium.org/wiki/Apertium-apy)",
+  "description": "An unofficial lightweight wrapper for the Apertium APY built in typescript. (https://wiki.apertium.org/wiki/Apertium-apy)",
   "author": "Jacob Shuman <jacob.shuman7@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/jacob-shuman",
-  "homepage": "https://github.com/jacob-shuman/apertium-apy#readme",
+  "homepage": "https://github.com/jacob-shuman/apertium-apy-wrapper#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacob-shuman/apertium-apy.git"
+    "url": "git+https://github.com/jacob-shuman/apertium-apy-wrapper.git"
   },
-  "bugs": "https://github.com/jacob-shuman/apertium-apy/issues",
+  "bugs": "https://github.com/jacob-shuman/apertium-apy-wrapper/issues",
   "keywords": [
     "apertium",
     "apy",
