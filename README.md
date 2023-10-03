@@ -17,6 +17,10 @@ A lightweight wrapper for the [Apertium APY](https://wiki.apertium.org/wiki/Aper
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
 [jsdocs-href]: https://www.jsdocs.io/package/apertium-apy
 
+## Contributing
+
+Any contributions are more than welcome! Please submit a pull request and I'll take a look at it as soon as I can.
+
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [Jacob Shuman](https://github.com/jacob-shuman/apertium-apy-wrapper)
