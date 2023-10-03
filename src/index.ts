@@ -19,11 +19,6 @@ const _sendRequest = async <T>(
   options: ApertiumOptions
 ): Promise<T> => {
   try {
-    console.log(
-      new URL(path.join("apy", route), options.baseUrl ?? BASE_URL).toString(),
-      { params: options.params }
-    );
-
     return (
       await axios.get(
         new URL(
