@@ -646,7 +646,7 @@ describe("/generate", () => {
   });
 });
 
-describe.only("/identifyLang", () => {
+describe("/identifyLang", () => {
   it("identify 'How is the weather?'", async () => {
     const res = await identifyLang({
       params: {
